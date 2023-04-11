@@ -1,0 +1,46 @@
+.top-header{
+    background-color: #8F121C;
+}
+
+.top-header-meth{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header-right{
+    display: flex;
+    gap: 20px;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+}
+
+.client-button{
+    display: flex;
+    align-items: center;
+}
+
+.material-symbols-outlined{
+    color: white;
+}
+
+.client-area-button{
+    background-color: #BD202E;
+    border: 0px;
+    border-radius: 100px;
+    transition: .3s;
+}
+
+.client-area{
+    display: flex;
+    align-items: center;
+    padding: 7px 7px;
+}
+
+.client-area-button:hover{
+    background-color: #af1320;
+}

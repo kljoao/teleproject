@@ -1,0 +1,18 @@
+/* IMPORTS FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+/* IMPORTS FONTS */
+
+/* IMPORTS CSS */
+@import url(/css/header.css);
+@import url(/css/fonts.css);
+/* IMPORTS CSS */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
