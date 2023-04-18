@@ -12,6 +12,7 @@
 .header-right{
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 
 .location{
@@ -38,9 +39,77 @@
 .client-area{
     display: flex;
     align-items: center;
-    padding: 7px 7px;
+    padding: 3px 10px;
 }
 
 .client-area-button:hover{
     background-color: #af1320;
+}
+
+.header{
+    background-color: #104D7B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav{
+    margin-right: 30px;
+}
+
+.header-nav ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.header-nav ul li a{
+    align-items: center;
+    color: #ffffff;
+    display: flex;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #8F121C;
+    border-radius: 0px 0px 8px 8px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content a{
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.separador{
+    position: absolute;
+    border: 1px solid rgb(189, 189, 189, 0.2);
+    width: 155px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+@media(max-width: 768px){
+    .header-nav{
+        display: none;
+    }
+}
+
+@media(max-width: 600px){
+    .top-header{
+        display: none;
+    }
 }
