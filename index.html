@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="/style.css">
 </head>
 
@@ -18,7 +19,7 @@
     <div class="top-header">
 
         <div class="top-header-meth">
-            <p class="white-italic-12"><i>Sinônimo de qualidade e eficiência</i></p>
+            <p class="white-italic-12">Sinônimo de qualidade e eficiência</p>
 
             <div class="header-right">
                 <div class="location">
@@ -41,7 +42,9 @@
 
 
     <header class="header">
-        <a href="/" class="link-logo"><img src="/img/logo.png" alt="" width="300px"></a>
+        <a href="/" class="link-logo"><img src="/img/logo.png" alt="" width="250px"></a>
+        <img src="/img/logo-hdr.png" alt="" class="mobile-logo" width="250px">
+
 
         <nav class="header-nav">
             <ul>
@@ -60,22 +63,42 @@
                       </div>
                 </li>
 
-                <li>
-                    <a href="/" class="white-normal-18">Telefonia
-                        <span class="material-symbols-outlined">expand_more</span>
+                <li class="dropdown">
+                    <a href="/" class="white-normal-18 dropbtn">Telefonia
+                        <span class="material-symbols-outlined dropbtn">expand_more</span>
                     </a>
+
+                    <div class="dropdown-content">
+                        <a href="#" class="white-normal-13">PABX</a>
+                        <span class="separador"></span>
+                        <a href="#" class="white-normal-13">SIP</a>
+                        <span class="separador"></span>
+                        <a href="#" class="white-normal-13">Números 0800</a>
+                      </div>
                 </li>
 
-                <li>
-                    <a href="/" class="white-normal-18">Plano Móvel
-                        <span class="material-symbols-outlined">expand_more</span>
+                <li class="dropdown">
+                    <a href="/" class="white-normal-18 dropbtn">Plano Móvel
+                        <span class="material-symbols-outlined dropbtn">expand_more</span>
                     </a>
+
+                    <div class="dropdown-content">
+                        <a href="#" class="white-normal-13">Empresas</a>
+                        <span class="separador"></span>
+                        <a href="#" class="white-normal-13">MVNA/E</a>
+                      </div>
                 </li>
 
-                <li>
-                    <a href="/" class="white-normal-18">Outros
-                        <span class="material-symbols-outlined">expand_more</span>
+                <li class="dropdown">
+                    <a href="/" class="white-normal-18 dropbtn">Outros
+                        <span class="material-symbols-outlined dropbtn">expand_more</span>
                     </a>
+
+                    <div class="dropdown-content">
+                        <a href="#" class="white-normal-13">Rede e Infraestrutura</a>
+                        <span class="separador"></span>
+                        <a href="#" class="white-normal-13">Outsourcing de Hardware</a>
+                      </div>
                 </li>
 
                 <li>
@@ -85,6 +108,10 @@
 
             </ul>
         </nav>
+
+        <span class="material-symbols-outlined menu">
+            menu
+            </span>
     </header>
 
 </body>
