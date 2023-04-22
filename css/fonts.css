@@ -41,6 +41,25 @@
     font-size: 18px;
 }
 
+.noto-black-normal-30{
+    font-family: 'Noto Sans', sans-serif;
+    color: #000000;
+    font-size: 18px;
+}
+
+
+.noto-black-normal-18{
+    font-family: 'Noto Sans', sans-serif;
+    color: #000000;
+    font-size: 18px;
+}
+
+.noto-normal-green-30{
+    font-family: 'Noto Sans', sans-serif;
+    color: #53E261;
+    font-size: 30px;
+}
+
 .noto-green-normal-60{
     font-family: 'Noto Sans', sans-serif;
     color: #53E261;
