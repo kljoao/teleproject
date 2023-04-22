@@ -1,12 +1,19 @@
 /* IMPORTS FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&display=swap');
 /* IMPORTS FONTS */
 
 /* IMPORTS CSS */
 @import url(/css/header.css);
 @import url(/css/fonts.css);
+@import url(/css/carrossel.css);
+@import url(/css/main-index.css);
 /* IMPORTS CSS */
+
+html{
+    background-color: #F6F6F6;
+}
 
 *{
     margin: 0px;

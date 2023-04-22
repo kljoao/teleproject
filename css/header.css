@@ -1,23 +1,5 @@
-.top-header{
-    background-color: #8F121C;
-}
-
-.top-header-meth{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-}
-
-.header-right{
-    display: flex;
-    gap: 20px;
-    align-items: center;
-}
-
-.location{
-    display: flex;
-    align-items: center;
+header{
+    margin-bottom: 10px;
 }
 
 .client-button{
@@ -55,7 +37,7 @@
 }
 
 .header{
-    background-color: #104D7B;
+    background-color: #31353B;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     display: flex;
     align-items: center;
@@ -91,6 +73,14 @@
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+}
+
+.separador-vertical{
+    position: absolute;
+    border: 1px solid rgb(189, 189, 189, 0.2);
+    height: 30px;
+    margin-left: 545px;
+    border-radius: 50px;
 }
 
 .dropdown{
@@ -140,6 +130,7 @@
     }
     .mobile-logo{
         display: block;
+        margin: 10px 20px;
     }
     .link-logo{
         display: none;
