@@ -1,5 +1,6 @@
 .index-main{
     margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 .main-container-index-som{
@@ -20,73 +21,49 @@
     margin-bottom: -20px;
 }
 
-.imgs-contenet-p{
-    text-align: center;
+.internet-button{
+    border: 0px;
+    background-color: #53E261;
+    padding: 8px 10px;
+    border-radius: 150px;
+    cursor: pointer;
+    transition: .3s;
     position: absolute;
-    margin-left: 800px;
-    margin-top: 100px
+    margin-top: 650px;
+    margin-left: -200px;
 }
 
-.imgs-content{
-    position: relative;
+.internet-button:hover{
+    background-color: #3da847;
+}
+
+.moveis-title{
     text-align: center;
-    margin-top: -650px;
-    margin-left: 650px;
-}
-
-@media(max-width: 2560px){
-    .imgs-content{
-        margin-top: -1150px;
-        margin-left: 1100px;
-    }
-    .imgs-content h1{
-        font-size: 120px;
-    }
-    .imgs-content h2{
-        font-size: 70px;
-    }
-}
-
-@media(max-width: 1440px){
-    .imgs-content{
-        margin-top: -650px;
-        margin-left: 700px;
-    }
-    .imgs-content h1{
-        font-size: 80px;
-    }
-    .imgs-content h2{
-        font-size: 40px;
-    }
+    line-height: 50px;
+    margin-left: -590px;
 }
 
 @media(max-width: 1024px){
-    .imgs-content{
-        margin-top: -450px;
-        margin-left: 500px;
-    }
-    .imgs-content h1{
-        font-size: 60px;
-    }
-    .imgs-content h2{
-        font-size: 40px;
+    .internet-button{
+        margin-top: 500px;
     }
 }
 
 @media(max-width: 768px){
-    .imgs-content h1{
-        font-size: 40px;
-    }
-    .imgs-content h2{
-        font-size: 20px
-    }
-    .imgs-content{
-        margin-top: -350px;
-        margin-left: 350px;
+    .internet-button{
+        margin-top: 370px;
+        margin-left: -180px;
+        font-size: 15px;
     }
 }
 
 @media(max-width: 425px){
+    .internet-button{
+        margin-top: 200px;
+        margin-left: -110px;
+        font-size: 10px;
+        padding: 6px 8px;
+    }
     .main-container-index-som h1{
         font-size: 40px;
         margin-bottom: 10px;
@@ -94,37 +71,18 @@
     .main-container-index-som h2{
         font-size: 30px;
     }
-    .index-main{
-        margin-top: 10px;
-    }
-    .imgs-content{
-        margin-top: -200px;
-        margin-left: 200px;
-    }
-    .imgs-content h1{
-        font-size: 25px;
-    }
-    .imgs-content h2{
-        font-size: 15px;
-    }
 }
 
 @media(max-width: 375px){
-    .imgs-content{
-        margin-top: -180px;
-        margin-left: 180px;
+    .internet-button{
+        margin-top: 175px;
     }
 }
 
 @media(max-width: 320px){
-    .imgs-content{
-        margin-top: -150px;
-        margin-left: 150px;
-    }
-    .imgs-content h1{
-        font-size: 20px;
-    }
-    .imgs-content h2{
-        font-size: 10px;
+    .internet-button{
+        margin-top: 150px;
+        font-size: 8px;
+        margin-left: -90px;
     }
 }
