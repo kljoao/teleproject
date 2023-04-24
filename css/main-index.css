@@ -37,12 +37,6 @@
     background-color: #3da847;
 }
 
-.moveis-title{
-    text-align: center;
-    line-height: 50px;
-    margin-left: -590px;
-}
-
 @media(max-width: 1024px){
     .internet-button{
         margin-top: 500px;
