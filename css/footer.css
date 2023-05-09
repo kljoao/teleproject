@@ -25,11 +25,14 @@
     padding: 20px;
 }
 
-.hori-line-footer{
-    position: absolute;
-    border: 1px solid rgb(189, 189, 189, 0.2);
-    width: 1345px;
-    margin-top: -10px;
-    margin-left: 0px;
-    max-width: 100%;
+.footer-rights{
+    text-align: center; 
+    color: rgb(121, 121, 121); 
+    font-size: 14px; 
+    border-top: 2px solid rgb(65, 64, 64, 0.4);
+    font-family: 'Inter', sans-serif;
+}
+
+.footer-rights p{
+    padding: 15px;
 }
