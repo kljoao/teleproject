@@ -78,4 +78,3 @@ let autoSlideInterval = setInterval(() => {
 // Adicionar eventos de mouse (hover) para parar e reiniciar o slide automático
 carousel.addEventListener('mouseenter', stopAutoSlide);
 carousel.addEventListener('mouseleave', startAutoSlide);
-  
