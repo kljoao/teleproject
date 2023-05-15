@@ -1,3 +1,13 @@
+const btnMenu = document.getElementById('btnMobile');
+
+function toggleMenu(){
+    btnMenu.classList.toggle('ativo');
+}
+
+btnMenu.addEventListener('click', toggleMenu);
+
+
+// SCRIPT DO CARROSSEL - NÃO ALTERAR
 const carousel = document.querySelector('.carousel');
 const carouselItems = document.querySelectorAll('.carousel-item');
 const prevButton = document.querySelector('.carousel-button-prev');
@@ -5,7 +15,7 @@ const nextButton = document.querySelector('.carousel-button-next');
 let currentIndex = 0;
 let startX = 0;
 const sensitivity = 50; // Sensibilidade do deslize, valor maior é mais sensível
-const interval = 6000; // Intervalo em milissegundos (6 segundos)
+const interval = 6000; // (6 segundos)
 
 // Função para avançar o slide
 const nextSlide = () => {

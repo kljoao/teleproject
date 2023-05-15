@@ -96,11 +96,11 @@
 @media(max-width: 970px){
     .movel-index-img{
         margin-top: -150px;
-        max-width: 400px;
+        max-width: 450px;
     }
 }
 
-@media(max-width: 768px){
+@media(max-width: 840px){
     .movel-icons-container{
         margin-left: 10px;
     }
@@ -108,9 +108,28 @@
         display: none;
     }
     .movel-index-img{
-        text-align: end;
-        margin-top: -150px;
+        text-align: center;
+        margin-top: -40px;
         max-width: 600px;
+        margin-left: 50px;
     }
 }
 
+@media(max-width: 425px){
+    .movel-index-img{
+        max-width: 400px;
+        margin-left: 20px;
+    }
+}
+
+@media(max-width: 375px){
+    .movel-index-img{
+        max-width: 330px;
+    }
+}
+
+@media(max-width: 320px){
+    .movel-index-img{
+        max-width: 300px;
+    }
+}   
