@@ -1,7 +1,8 @@
 const btnMenu = document.getElementById('btnMobile');
+const atVator = document.getElementById('nav');
 
 function toggleMenu(){
-    btnMenu.classList.toggle('ativo');
+    atVator.classList.toggle('ativo');
 }
 
 btnMenu.addEventListener('click', toggleMenu);
@@ -88,3 +89,7 @@ let autoSlideInterval = setInterval(() => {
 // Adicionar eventos de mouse (hover) para parar e reiniciar o slide automático
 carousel.addEventListener('mouseenter', stopAutoSlide);
 carousel.addEventListener('mouseleave', startAutoSlide);
+
+
+ScrollReveal().reveal('.movel-index', {delay: 600});
+ScrollReveal().reveal('.map', {delay: 600});

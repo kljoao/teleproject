@@ -96,6 +96,10 @@ header{
     transition: .3s;
 }
 
+.nav-mobile{
+    display: none;
+}
+
 .separador{
     position: absolute;
     border: 1px solid rgb(189, 189, 189, 0.2);
@@ -121,6 +125,19 @@ header{
         display: block;
         margin-right: 30px;
         cursor: pointer;
+    }
+    .nav-mobile{
+        display: none;
+        position: absolute;
+        top: 96px;
+        right: 0px;
+        background-color: #ffffff;
+        width: 95%;
+        height: calc(100vh - 70px);
+        z-index: 1000;
+    }
+    #btnMobile.ativo .nav-mobile{
+        display: block;
     }
 }
 
