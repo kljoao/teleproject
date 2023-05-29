@@ -3,10 +3,9 @@
 }
 
 body{
-    background: url(https://media.istockphoto.com/id/1288526180/photo/4k-abstract-white-backgrounds.jpg?b=1&s=612x612&w=0&k=20&c=DoL2JfG_nI_UiB7RUQub2n3UDKpKJPhNhLLobJ47Flw=) no-repeat;
+    background-image: url(https://images.hdqwalls.com/wallpapers/white-cube-pattern-4k-bu.jpg);
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(230, 230, 230, 0.8);
-    background-size: cover;
     max-width: 100%;
 }
 
@@ -22,7 +21,7 @@ a:hover{
 .div-princ{
     background-color: rgba(0, 0, 0);
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%,-50%);
     padding: 80px;
@@ -55,23 +54,13 @@ button:hover{
     cursor: pointer;
 }
 
-.background-login{
-    max-width: 100%;
-    width: 100000000px;
-    background-image:url(img/background2.jpg);
-}
-
-.icon-home{
-    position: absolute;
-    z-index: 1000;
-    width: 250px;
-    cursor: pointer;
-    margin: 8px 7px;
-}
-
 .fgt-pass{
     font-size: 14px;
     margin: 0px 0px 0px 79px;
+}
+
+.logo-img{
+    text-align: center;
 }
 
 .line{
