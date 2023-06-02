@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oficial TeleCall</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="css/cadastro.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+
+  <body>
+    <header>
+      <img src="img/logo-white.png" alt="" class="cadastro-logo" />
+    </header>
+
+    <main class="cadastro-container">
+      <p class="crie-conta">CRIE UMA CONTA GRATUITAMENTE</p>
+      <h1 class="crie-h1">Crie uma conta<span class="crie-detalhe">.</span></h1>
+      <p class="cadastro-p-maior">
+        Já é cadastrado?<a class="p-contraste" href=""> Entre aqui</a>
+      </p>
+    </main>
+
+    <form action="" class="cadastro-formulario" id="form">
+      <label for="" class="cadastro-label-align">
+        <span class="material-symbols-outlined" id="icon-nome-validador"
+          >badge</span
+        >
+        <input
+          type="text"
+          class="input-long"
+          placeholder="Seu nome completo"
+          required
+          maxlength="60"
+          id="name"
+          oninvalid="setCustomValidity('O campo deve ter no mínimo 6 caracteres')" oninput="setCustomValidity('')"
+        />
+      </label>
+
+      <label for="" class="cadastro-label-align">
+        <span class="material-symbols-outlined" id="icon-email-validador"
+          >mail</span
+        >
+        <input
+          type="email"
+          class="input-long"
+          placeholder="Seu e-mail"
+          required
+          id="email"
+        />
+      </label>
+
+      <label for="" class="cadastro-label-align">
+        <span class="material-symbols-outlined" id="icon-senha-validador"
+          >key</span
+        >
+        <input
+          type="password"
+          class="input-m"
+          placeholder="Cadastre uma senha"
+          required
+          id="password"
+        />
+      </label>
+
+      <label for="" class="cadastro-label-align">
+        <span class="material-symbols-outlined" id="icon-confirma-validador"
+          >key</span
+        >
+        <input
+          type="password"
+          class="input-m"
+          placeholder="Confirme sua senha"
+          required
+          id="password-confirm"
+        />
+      </label>
+
+      <div class="cad-button-options">
+        <p class="cadastro-p-maior">
+          <i
+            >Venha conhecer toda a experiência<a class="p-contraste" href="">
+              TeleCall</a
+            ></i
+          >
+        </p>
+        <button class="submit-1" type="button" onclick="cadastro()">
+          Cadastrar
+        </button>
+      </div>
+    </form>
+
+    <script src="javascript/cadastro.js"></script>
+  </body>
+</html>
