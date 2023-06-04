@@ -26,6 +26,14 @@ img {
     margin-top: 60px;   
 }
 
+.contrate{
+    transition: transform 500ms linear;
+}
+.contrate:hover{
+    transform: scale(1.10);
+    
+}
+
 .degrade > h2 {
     font-size: 25px;
     color: aliceblue;
