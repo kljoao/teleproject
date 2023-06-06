@@ -65,7 +65,8 @@ pre {
     background-color:rgb(255, 255, 255);
     border: 1px solid gray;
     max-width: 400px;
-    margin: auto;     
+    margin: auto;  
+    box-shadow: 6px 6px 9px grey;   
 }
 
 

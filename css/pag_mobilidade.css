@@ -1,9 +1,7 @@
 .degrade {
     background-image:url(/img/Background\ mobilidade.jpg);
-    background-position: 0px;
+    background-position: center;
     background-size: 100%;
-    background-color: azure;
-    
 }
 
 img {
@@ -69,6 +67,7 @@ pre {
     max-width: 300px;   
     padding: 0px 10px; /*Foi mexido para aumentar a largura da div*/
     margin: auto;
+    box-shadow: 6px 6px 9px grey;
 }
 
 
