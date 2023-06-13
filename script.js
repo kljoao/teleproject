@@ -1,13 +1,3 @@
-const btnMenu = document.getElementById('btnMobile');
-const atVator = document.getElementById('nav');
-
-function toggleMenu(){
-    atVator.classList.toggle('ativo');
-}
-
-btnMenu.addEventListener('click', toggleMenu);
-
-
 // SCRIPT DO CARROSSEL - NÃO ALTERAR
 const carousel = document.querySelector('.carousel');
 const carouselItems = document.querySelectorAll('.carousel-item');

@@ -60,6 +60,12 @@
     font-size: 18px;
 }
 
+.noto-white-normal-30{
+    font-family: 'Noto Sans', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+}
+
 .noto-normal-green-30{
     font-family: 'Noto Sans', sans-serif;
     color: #53E261;
