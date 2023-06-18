@@ -1,100 +1,162 @@
 *{
     margin: 0px;
+    padding: 0px;
 }
 
-body{
-    background-image: url(https://images.hdqwalls.com/wallpapers/white-cube-pattern-4k-bu.jpg);
+.body-login{
+    background-color: #1167A8;
+    display: flex;
+}
+
+.login-logo{
+    margin: 40px 50px;
+    margin-top: 10px;
+    margin-left: 180px;
+
+}
+
+.div-principal{
+    margin-top: 100px;
+    margin-left: -800px;
+}
+
+.login-container{
+    margin-top: 120px;
+    margin-left: 430px;
+}
+
+.login-title{
+    color: #E8E3F0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(230, 230, 230, 0.8);
-    max-width: 100%;
-}
+    font-size: 49.9px;}
 
-a{
-    text-decoration: none;
-    color: white;
-}
-
-a:hover{
-    text-decoration: underline;
-}
-
-.div-princ{
-    background-color: rgba(0, 0, 0);
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    padding: 80px;
-    padding-bottom: 30px;
-    border-radius: 15px;
-    color: #fff;
-    box-shadow: 6px 11px 15px 1.5px rgba(0, 0, 0, 0.9);
-}
-
-input{
-    padding: 15px;
-    border: none;
-    outline: none;
+.login-subtitle{
+    margin: 10px 0px;
+    color: #E8E3F0;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    border-radius: 3px;
 }
-button{
-    background-color: dodgerblue;
-    border: none;
-    padding: 15px;
-    width: 100%;
-    border-radius: 10px;
+
+.login-formulario{
+    display: flex;
+    flex-direction: column;
+    margin-left: 420px;
+    gap: 20px;
+}
+
+.material-symbols-outlined{
+    color: #8D8D8D;
+    background-color: #ffffff;
+    padding: 15.5px;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.login-label-items{
+    display: flex;
+    align-items: center;
+    color: #E8E3F0;
+    opacity: 0.7;
+}
+
+.button-login{
+    background-color: #039EFF;
     color: white;
-    font-size: 15px;
+    font-size: 17px;
+    border: 0px;
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: -10px;
+    margin-left: 390px;
     transition: .3s;
 }
 
-button:hover{
-    background-color: rgb(1, 104, 138);
-    cursor: pointer;
+.button-login:hover{
+    color: #d0d0d0;
+    background-color: #0198b2;
 }
 
-.fgt-pass{
-    font-size: 14px;
-    margin: 0px 0px 0px 79px;
+.button-login a{
+    text-decoration: none;
+    color: #ffffff;
 }
 
-.logo-img{
-    text-align: center;
-}
-
-.line{
-    margin: 25px 0px 0px -80px;
-    position: absolute;
-    content: '';
-    border: 1px solid rgba(255, 255, 255, 0.117);
-    width: 380px
-}
-
-.second-button{
+.button-cadastro{
+    background-color: #039EFF;
+    color: white;
     font-size: 20px;
-    background-color: green;
-    margin-top: 50px;
+    border: 0px;
+    width: 170px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: 120px;
+    margin-left: 150px;
 }
 
-.second-button:hover{
-    background-color: rgb(1, 85, 1);
+.button-cadastro:hover{
+    color: #d0d0d0;
+    background-color: #0198b2;
 }
 
-@media(max-width: 425px){
-    .div-princ{
-        padding: 50px;
+.button-cadastro a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.input-credenciais{
+    padding: 20px;
+    border: 0px;
+    width: 450px;
+    border-radius: 0px 50px 50px 0px;
+}
+
+.input-credenciais:focus{
+    outline: 0;
+}
+
+.a-space{
+    color: #ffffff;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+.forgot-passaword{
+    margin-top: -65px;
+    margin-left: 15px;
+}
+
+.rights{
+    color:#8D8D8D;
+    opacity: 1;
+    margin-top: 52px;
+    margin-left: 110px;
+}
+
+@media(max-width: 1440px){
+    .div-principal{
+        margin-top: 0px;
     }
-    .icon-home{
-        margin: 0px;
-        display: block;
-        text-align: center;
+    .backgroung-img{
+        max-width: 700px;
+        max-height: 700px;
     }
 }
 
-@media(max-width: 320px){
-    .div-princ{
-        font-size: 50%;
-        padding: 30px;
+@media(max-width: 768px){
+    .backgroung-img{
+        display: none;
+    }
+    .div-principal{
+        margin-left: -830px;
+    }
+    .login-label-items{
+        width: 400px;
+    }
+    .button-login{
+        margin-left: 300px;
     }
 }

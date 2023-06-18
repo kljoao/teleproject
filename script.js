@@ -1,3 +1,38 @@
+//SCRIPT MOBILE - NÃO ALTERAR
+
+const btnMobile = document.querySelector('#btnMobile');
+const itensMobile = document.querySelector('.header-ul');
+
+function mobileActive(){
+    itensMobile.classList.toggle('ativado')
+}
+
+btnMobile.addEventListener('click', mobileActive);
+
+//SCRIPT MOBILE - NÃO ALTERAR
+
+//SCRIPT SCROLL SUAVE - NÃO ALTERAR
+
+const linkInterno = document.querySelectorAll('a[href^="#"]')
+
+function scrollSection(event){
+  event.preventDefault();
+  const href = event.currentTarget.getAttribute('href')
+  const section = document.querySelector(href);
+  const topo = section.offsetTop;
+
+  window.scrollTo({
+    top: topo,
+    behavior: "smooth"
+  })
+}
+
+linkInterno.forEach((link) => {
+  link.addEventListener('click', scrollSection)
+})
+
+//SCRIPT SCROLL SUAVE - NÃO ALTERAR
+
 // SCRIPT DO CARROSSEL - NÃO ALTERAR
 const carousel = document.querySelector('.carousel');
 const carouselItems = document.querySelectorAll('.carousel-item');

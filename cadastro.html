@@ -23,14 +23,14 @@
 
   <body>
     <header>
-      <img src="img/logo-white.png" alt="" class="cadastro-logo" />
+      <a href="index.html"><img src="img/logo-white.png" alt="" class="cadastro-logo" /></a>
     </header>
 
     <main class="cadastro-container">
       <p class="crie-conta">CRIE UMA CONTA GRATUITAMENTE</p>
       <h1 class="crie-h1">Crie uma conta<span class="crie-detalhe">.</span></h1>
       <p class="cadastro-p-maior">
-        Já é cadastrado?<a class="p-contraste" href=""> Entre aqui</a>
+        Já é cadastrado?<a class="p-contraste" href="login.html"> Entre aqui</a>
       </p>
     </main>
 
@@ -77,8 +77,7 @@
       </label>
 
       <label for="" class="cadastro-label-align">
-        <span class="material-symbols-outlined" id="icon-confirma-validador"
-          >key</span
+        <span class="material-symbols-outlined" id="icon-confirma-validador">key</span
         >
         <input
           type="password"
@@ -86,6 +85,19 @@
           placeholder="Confirme sua senha"
           required
           id="password-confirm"
+        />
+      </label>
+
+      <label for="" class="cadastro-label-align">
+        <span class="material-symbols-outlined" id="icon-nome-validador">badge</span>
+        <input
+          type="text"
+          class="input-long"
+          placeholder="Nome materno"
+          required
+          maxlength="60"
+          id="name"
+          oninvalid="setCustomValidity('O campo deve ter no mínimo 6 caracteres')" oninput="setCustomValidity('')"
         />
       </label>
 

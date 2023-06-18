@@ -11,89 +11,61 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/css/fonts.css">
-    <link rel="stylesheet" href="/css/pagina_internet.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/pagina_internet.css">
+    <link rel="stylesheet" href="css/header.css">
 
 </head>
 <body>
     <header class="header">
-        <a href="/" class="link-logo"><img src="/img/logo.png" alt="" width="190px"></a>
-        <img src="/img/logo-hdr.png" alt="" class="mobile-logo" width="190px">
+        <a href="/" class="link-logo"><img src="img/logo.png" alt="LOGO" width="190px"></a>
+        <img src="img/logo-hdr.png" alt="LOGO" width="190px" class="mobile-logo">
 
+        
 
         <nav class="header-nav">
-            <ul>
 
-                <li class="dropdown">
-                    <a href="/" class="white-normal-15 dropbtn">Internet
-                    <span class="material-symbols-outlined dropbtn">expand_more</span>
-                    </a>
+            <ul class="header-ul">
 
-                    <div class="dropdown-content">
-                        <a href="#" class="white-normal-13">Dedicada</a>
-                        <span class="separador"></span>
-                        <a href="#" class="white-normal-13">Wi-fi</a>
-                        <span class="separador"></span>
-                        <a href="#" class="white-normal-13">Banda Larga</a>
-                      </div>
+                <li class="header-itens">
+                    <a href="pagina_internet.html" class="white-normal-15">Internet</a>
                 </li>
 
-                <li class="dropdown">
-                    <a href="/" class="white-normal-15 dropbtn">Telefonia
-                        <span class="material-symbols-outlined dropbtn">expand_more</span>
-                    </a>
-
-                    <div class="dropdown-content">
-                        <a href="#" class="white-normal-13">PABX</a>
-                        <span class="separador"></span>
-                        <a href="#" class="white-normal-13">SIP</a>
-                        <span class="separador"></span>
-                        <a href="#" class="white-normal-13">Números 0800</a>
-                      </div>
+                <li class="header-itens">
+                    <a href="pagina_telefonia.html" class="white-normal-15">Telefonia</a>
                 </li>
 
-                <li class="dropdown">
-                    <a href="/" class="white-normal-15 dropbtn">Plano Móvel
-                        <span class="material-symbols-outlined dropbtn">expand_more</span>
-                    </a>
-
-                    <div class="dropdown-content">
-                        <a href="#" class="white-normal-13">Empresas</a>
-                        <span class="separador"></span>
-                        <a href="#" class="white-normal-13">MVNA/E</a>
-                      </div>
+                <li class="header-itens">
+                <a href="pagina_mobilidade.html" class="white-normal-15">Plano Móvel</a>
                 </li>
 
-                <li class="dropdown">
-                    <a href="/" class="white-normal-15 dropbtn">Outros
-                        <span class="material-symbols-outlined dropbtn">expand_more</span>
-                    </a>
-
-                    <div class="dropdown-content">
-                        <a href="#" class="white-normal-13">Rede e Infraestrutura</a>
-                        <span class="separador"></span>
-                        <a href="#" class="white-normal-13">Outsourcing de Hardware</a>
-                      </div>
+                <li class="header-itens">
+                    <a href="index.html" class="white-normal-15">Outros</a>
                 </li>
 
-                <li>
-                    <a href="" class="white-normal-15">Contato</a>
+                <li class="header-itens">
+                    <a href="index.html" class="white-normal-15">Contato</a>
                 </li>
 
-                <span class="separador-vertical"></span>
-                
-                <li>
+                <li class="header-itens">
                     <button class="client-area-button">
-                        <a href="" class="client-area">
+                        <a href="login.html" class="client-area">
                             <span class="material-symbols-outlined">person</span>
-                            <p class="white-normal-11">Área do Cliente</p>
-                            </a>
+                            <p class="white-normal-11" id="txt">Área do Cliente</p>
+                        </a>
                     </button>
                 </li>
 
             </ul>
+
         </nav>
+
+        <span class="menu-mobile material-symbols-outlined" id="btnMobile">
+            menu
+            </span>
+
+    </header>
 
         <span class="material-symbols-outlined menu">
             menu

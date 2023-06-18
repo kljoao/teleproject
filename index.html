@@ -23,51 +23,52 @@
 <body>
 
     <header class="header">
-        <a href="/" class="link-logo"><img src="img/logo.png" alt="" width="190px"></a>
-        <img src="img/logo-hdr.png" alt="" class="mobile-logo" width="190px">
+        <a href="/" class="link-logo"><img src="img/logo.png" alt="LOGO" width="190px"></a>
+        <img src="img/logo-hdr.png" alt="LOGO" width="190px" class="mobile-logo">
 
-        <!-- MENU SEM RESPONSIVO -->
+        
+
         <nav class="header-nav">
-            <ul id="btnLista">
 
-                <li class="dropdown">
-                    <a href="/" class="white-normal-15 dropbtn">Internet</a>
+            <ul class="header-ul">
+
+                <li class="header-itens">
+                    <a href="pagina_internet.html" class="white-normal-15">Internet</a>
                 </li>
 
-                <li class="dropdown">
-                    <a href="/" class="white-normal-15 dropbtn">Telefonia</a>
+                <li class="header-itens">
+                    <a href="pagina_telefonia.html" class="white-normal-15">Telefonia</a>
                 </li>
 
-                <li class="dropdown">
-                    <a href="/" class="white-normal-15 dropbtn">Plano Móvel</a>
+                <li class="header-itens">
+                <a href="pagina_mobilidade.html" class="white-normal-15">Plano Móvel</a>
                 </li>
 
-                <li class="dropdown">
-                    <a href="/" class="white-normal-15 dropbtn">Outros</a>
+                <li class="header-itens">
+                    <a href="#presenca" class="white-normal-15">Outros</a>
                 </li>
 
-                <li>
-                    <a href="" class="white-normal-15">Contato</a>
+                <li class="header-itens">
+                    <a href="#contato" class="white-normal-15">Contato</a>
                 </li>
 
-                <span class="separador-vertical"></span>
-
-                <li>
+                <li class="header-itens">
                     <button class="client-area-button">
                         <a href="login.html" class="client-area">
                             <span class="material-symbols-outlined">person</span>
-                            <p class="white-normal-11">Área do Cliente</p>
+                            <p class="white-normal-11" id="txt">Área do Cliente</p>
                         </a>
                     </button>
                 </li>
 
             </ul>
+
         </nav>
 
-        <span class="material-symbols-outlined menu" id="btnMobile">
+        <span class="menu-mobile material-symbols-outlined" id="btnMobile">
             menu
-        </span>
-        <ul class="nav-mobile">
+            </span>
+
     </header>
 
     <div class="carousel-container">
@@ -100,7 +101,7 @@
                 <br />
                 <br />
                 <p class="white-normal-13">Solução definitiva de internet via Fibra com alta qualidade</p>
-                <button class="about-main white-normal-13">Saiba mais</button>
+                <a href="Apresentação CPaaS.pdf" target="_blank" style="color: black;"><button class="about-main white-normal-13">Saiba mais</a></button></a>    
               </div>
             </div>
     
@@ -111,7 +112,7 @@
                   <br />
                   <br />
                   <p class="white-normal-13">A melhor solução PABX IP em nuvem do mercado para telefonia</p>
-                  <button class="about-main white-normal-13">Saiba mais</button>
+                  <a href="Apresentação CPaaS.pdf" target="_blank" style="color: black;"><button class="about-main white-normal-13">Saiba mais</a></button></a>    
                 </div>
               </div>
     
@@ -122,7 +123,7 @@
                   <br />
                   <br />
                   <p class="white-normal-13">Solução definitiva de internet via Fibra com alta qualidade</p>
-                  <button class="about-main white-normal-13">Saiba mais</button>
+                  <a href="Apresentação CPaaS.pdf" target="_blank" style="color: black;"><button class="about-main white-normal-13">Saiba mais</a></button></a>    
                 </div>
               </div>
     
@@ -181,7 +182,7 @@
     </section>
 
 
-    <div class="sec-index-moveis">
+    <div class="sec-index-moveis" id="presenca">
         <h2 class="noto-red-normal-40">PRESENÇA EM TODO</h2>
         <h1 class="noto-blue-normal-60">RIO DE JANEIRO</h1>
     </div>
@@ -192,7 +193,7 @@
     </section>
 
     <div class="sec-index-moveis">
-        <h1 class="noto-blue-normal-60">CONTATO</h1>
+        <h1 class="noto-blue-normal-60" id="contato">CONTATO</h1>
     </div>
 
     <section class="contact-container">
@@ -219,20 +220,6 @@
 
         </form>
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <footer class="footer">
 
