@@ -5,6 +5,9 @@ const itensMobile = document.querySelector('.header-ul');
 
 function mobileActive(){
     itensMobile.classList.toggle('ativado')
+    if(linkInterno === 'click'){
+      itensMobile.classList.remove('ativado')
+    }
 }
 
 btnMobile.addEventListener('click', mobileActive);
