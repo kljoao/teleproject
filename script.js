@@ -5,9 +5,6 @@ const itensMobile = document.querySelector('.header-ul');
 
 function mobileActive(){
     itensMobile.classList.toggle('ativado')
-    if(linkInterno === 'click'){
-      itensMobile.classList.remove('ativado')
-    }
 }
 
 btnMobile.addEventListener('click', mobileActive);
@@ -17,7 +14,6 @@ btnMobile.addEventListener('click', mobileActive);
 //SCRIPT SCROLL SUAVE - NÃO ALTERAR
 
 const linkInterno = document.querySelectorAll('a[href^="#"]')
-
 function scrollSection(event){
   event.preventDefault();
   const href = event.currentTarget.getAttribute('href')

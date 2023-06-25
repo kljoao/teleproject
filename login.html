@@ -26,30 +26,49 @@
           </form>
           <form action="#" class="sign-up-form">
             <h2 class="title">Registrar</h2>
+
             <div class="input-field">
               <i class="name-color fas fa-user"></i>
               <input type="text" placeholder="Nome Completo*" minlength="8" maxlength="60" id="name" required/>
             </div>
+
+            <p class="chekCPF">CPF Inválido*</p>
             <div class="input-field">
               <i class="cpf-color fas fa-id-card"></i>
               <input type="text" placeholder="CPF*" id="cpf" minlength="14" maxlength="14" class="corporate-name" required/>
             </div>
-            <div class="input-field">
-              <i class="fas fa-envelope"></i>
-              <input type="text" name="email" placeholder="Email" onblur="validacaoEmail(email)"  maxlength="60">
+
+            <p class="checkDate">Digite uma data válida*</p>
+            <div class="input-field" id="signupForm">
+              <i class="dateColor fas fa-calendar"></i>
+              <input type="text" required placeholder="Data de Nascimento*" onblur="validarData()" minlength="10" maxlength="10" class="dateInput"/>
             </div>
+
+
+            <p class="invalidEmail">E-mail inválido*</p>
             <div class="input-field">
-              <i class="fas fa-envelope"></i>
-              <input type="email" placeholder="Confirme o Email*" required/>
+              <i class="emailColor fas fa-envelope"></i>
+              <input type="text" name="email" placeholder="Email*" onblur="validacaoEmail(email)"  maxlength="60" class="emailInput">
             </div>
+
+            <p class="duoemailcheck">Os e-mails não conferem*</p>
             <div class="input-field">
-              <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Senha*" required/>
+              <i class="confirmColor fas fa-envelope"></i>
+              <input type="email" placeholder="Confirme o Email*" required class="email-confirm"/>
             </div>
+
+            <p class="passwordCheck">Mínimo de 8 dígitos, caracter especial e um <br>número*</p>
             <div class="input-field">
-              <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Confirme a Senha*" required/>
+              <i class="passwordColor fas fa-lock"></i>
+              <input type="password" name="senha" placeholder="Senha*" required class="password" minlength="8" onblur="validarSenha(senha)"/>
             </div>
+
+            <p class="confirmPasswordCheck">As senhas não conferem</p>
+            <div class="input-field">
+              <i class="confirmPassColor fas fa-lock"></i>
+              <input type="password" name="passwordConfirm" placeholder="Confirme a Senha*" required minlength="8" class="confirmaSenha" onkeyup="validarConfirmaSenha(passwordConfirm)"/>
+            </div>
+
             <input type="submit" class="btn" value="Cadastrar" />
           </form>
         </div>

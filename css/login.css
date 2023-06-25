@@ -79,6 +79,11 @@ form.sign-in-form {
   position: relative;
 }
 
+.duoemailcheck, .invalidEmail, .chekCPF, .passwordCheck, .confirmPasswordCheck, .checkDate{
+  display: none;
+  color: red;
+}
+
 .input-field i {
   text-align: center;
   line-height: 55px;
