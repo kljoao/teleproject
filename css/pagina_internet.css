@@ -1,7 +1,7 @@
 .degrade {
-    background-image:url(../img/bacground\ internet.jpg);
+    background-image:url(../img/background\ internet\ 3.jpg);
     background-position: center;
-    background-size: 100%;
+    background-size: 85%;
 }
 
 img {
@@ -48,48 +48,44 @@ pre {
 
 .flex {
     display: flex;
-    margin: 0 auto;
+    flex-wrap: wrap;
     margin-top: 70px;
     font-size: 18px;
-    text-align: center;
-    margin-left: 300px;
-    margin-right: 300px;     
+    text-align: center;  
+    padding: 10px;    
 }
 
 
-.flex > div {
-    flex: 1 1 200px;
+.flex div {
     border-radius: 10px;
     background-color:rgb(255, 255, 255);
     border: 1px solid gray;
-    max-width: 400px;
-    margin: auto; 
+    width: 500px;
+    margin: 0 auto;  
     box-shadow: 6px 6px 9px grey;     
 }
 
 .flex2 {
     display: flex;
-    margin: 0 auto;
+    flex-wrap: wrap;
     margin-top: 70px;
     font-size: 18px;
-    text-align: center;
-    margin-left: 400px;
-    margin-right: 400px; 
-    
+    text-align: center;  
+    padding: 10px;    
 }
-.evento {
+
+.flex2 div{
     border-radius: 10px;
     background-color:rgb(255, 255, 255);
     border: 1px solid gray;
-    max-width: 400px;
-    margin: 0px -20px 0px 100px;
+    width: 500px;
+    margin: 0 auto;  
     box-shadow: 6px 6px 9px grey;
 }
 
 .icons{
    display: flex;
-   margin: auto;
-    
+   margin: auto;    
 }
 
 .botoes{
@@ -98,11 +94,15 @@ pre {
     height: 40px;
     width: 110px;
     font-size: large;
-    margin: 0 0 30px 0;
+    margin: 0px auto 20px auto;
     border-radius: 10px;
     border-color: #AA0E27;
-    font-family: Arial, Helvetica, sans-serif;      
-    
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+.botoes:hover{
+    background-color: aliceblue;
+    color: #AA0E27;
 }
 
 .contrate {
@@ -113,4 +113,44 @@ pre {
     border-radius: 10px;
     margin: 0 0 30px 40px;
     font-size: 18px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .flex div{
+        margin: 20px auto;
+    }
+
+    .flex2 div{
+        margin: 20px auto;
+    }
+    
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .flex div{
+        width: 320px;
+        margin: 20px auto;
+    }
+
+    .flex2 div{
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .flex div{
+        width: 450px;
+        margin: 20px auto;
+    }
+
+    .flex2 div{
+        width: 450px;
+    }
+    
+}
+
+@media only screen and (min-width: 1441px) {
+    .flex div{
+        margin: 20px auto;
+    }
 }

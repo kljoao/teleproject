@@ -35,10 +35,28 @@
     font-size: 18px;
 }
 
+.black-normal-40{
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+    font-size: 40px;
+}
+
+.blue-normal-40{
+    color: #104D7B;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+}
+
 .black-normal-30{
     font-family: 'Inter', sans-serif;
     color: #000000;
     font-size: 30px;
+}
+
+.black-normal-20{
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+    font-size: 20px;
 }
 
 .black-normal-18{

@@ -48,15 +48,11 @@ pre {
 
 .flex {
     display: flex;
-    margin: auto;
     flex-wrap: wrap;
     margin-top: 70px;
     font-size: 18px;
-    text-align: center;
-    margin-left: 300px; 
-    margin-right: 300px;
-    gap: 20px;    
-    
+    text-align: center;  
+    padding: 10px;    
 }
 
 
@@ -64,7 +60,8 @@ pre {
     border-radius: 10px;
     background-color:rgb(255, 255, 255);
     border: 1px solid gray;
-    max-width: 300px;   
+    width: 450px;
+    margin: 0 auto;  
     box-shadow: 6px 6px 9px grey;     
 }
 
@@ -80,7 +77,6 @@ pre {
     
 }
 
-
 .botoes{
     background-color: #AA0E27;
     color: aliceblue;
@@ -94,6 +90,11 @@ pre {
     
 }
 
+.botoes:hover{
+    background-color: aliceblue;
+    color: #AA0E27;
+}
+
 .contrate {
     background-color: red;
     color: aliceblue;
@@ -102,4 +103,38 @@ pre {
     border-radius: 10px;
     margin: 0 0 30px 40px;
     font-size: 18px;
+}
+
+@media only screen and (max-width: 768px) {
+    .flex div{
+        margin: 20px auto;           
+    }    
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .flex div{
+        margin: 20px auto;
+    }
+    
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1376px){
+    .flex div{
+        margin: 20px auto;
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width: 1376px) and (max-width: 1440px){
+    .flex div{
+        margin: 20px auto;
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width: 1441px){
+    .flex div{
+        margin: 20px auto;
+        width: 350px;
+    }
 }

@@ -1,6 +1,6 @@
 .degrade {
     background-image:url(../img/Background\ mobilidade.jpg);
-    background-position: center;
+    background-position: bottom;
     background-size: 100%;
 }
 
@@ -24,8 +24,7 @@ img {
     display: flex;
     font-size: 50px;
     color: aliceblue;
-    margin-top: 60px;
-    border-color:  black;   
+    margin-top: 60px; 
 }
 
 .degrade > h2 {
@@ -49,14 +48,11 @@ pre {
 
 .flex {
     display: flex;
-    margin: auto;
     flex-wrap: wrap;
     margin-top: 70px;
     font-size: 18px;
-    text-align: center;
-    margin-left: 500px; 
-    margin-right: 500px;
-    gap: 70px;    
+    text-align: center;  
+    padding: 10px;    
 }
 
 
@@ -64,9 +60,8 @@ pre {
     border-radius: 10px;
     background-color:rgb(255, 255, 255);
     border: 1px solid gray;
-    max-width: 300px;   
-    padding: 0px 10px; /*Foi mexido para aumentar a largura da div*/
-    margin: auto;
+    width: 500px;
+    margin: 0 auto;  
     box-shadow: 6px 6px 9px grey;
 }
 
@@ -90,6 +85,11 @@ pre {
     font-family: Arial, Helvetica, sans-serif;     
 }
 
+.botoes:hover{
+    background-color: aliceblue;
+    color: #AA0E27;
+}
+
 .contrate {
     background-color: red;
     color: aliceblue;
@@ -99,3 +99,24 @@ pre {
     margin: 0 0 30px 40px;
     font-size: 18px;
 }
+
+@media only screen and (max-width: 768px) {
+    .flex div{
+        margin: 20px auto;
+    }
+    
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+    .flex div{
+        margin: 20px auto;
+    }
+    
+}
+
+@media only screen and (min-width: 1024px){
+    .flex div{
+        width: 450px;
+    }
+}
+

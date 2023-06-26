@@ -163,6 +163,9 @@
         margin-top: -150px;
         max-width: 450px;
     }
+    .about-main{
+        margin: 20px 0px 0px 170px;
+    }
 }
 
 @media(max-width: 840px){
@@ -198,6 +201,9 @@
     .movel-index-img{
         max-width: 330px;
     }
+    .about-main{
+        margin: 20px 0px 0px 120px;
+    }
 }
 
 @media(max-width: 320px){
@@ -212,5 +218,8 @@
     }
     .movel-index{
         margin-bottom: 0px;
+    }
+    .about-main{
+        margin: 20px 0px 0px 40px;
     }
 }   
